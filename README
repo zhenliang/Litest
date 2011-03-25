@@ -4,7 +4,9 @@ Usage:
     - Just include litest.h and all is settled.
     - See demo.cpp for details.
 
-Short sample:
+Short Sample:
+
+    // file: main.cpp
 
     #include "litest.h"
 
