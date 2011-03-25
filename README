@@ -3,3 +3,17 @@ Litest, a super lite C++ testing framework implemention inspired by CppUnitLite.
 Usage:
     - Just include litest.h and all is settled.
     - See demo.cpp for details.
+
+Short sample:
+
+    #include "litest.h"
+
+    TEST(SimpleDemo)
+    {
+        CHECK(1 > 2); 
+    }
+
+    int main()
+    {
+        return 0;
+    }
