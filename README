@@ -1,4 +1,4 @@
-Litest, a super lite C++ testing framework implemention inspired by CppUnitLite.
+﻿Litest, a super lite C++ testing framework implemention inspired by CppUnitLite.
 
 Usage:
     - Just include litest.h and all is settled.
