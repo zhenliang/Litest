@@ -22,10 +22,10 @@ inline bool RunTestFunc(TestFunc func, const std::string& suite, const std::stri
 inline void Fail(const std::string& suite, const std::string& test, const std::string& file, 
                  long line, const std::string& msg)
 {
-  std::cout<<"Suite: "<<suite<<std::endl;
-  std::cout<<"Test : "<<test<<std::endl;
-  std::cout<<"Fail : "<<msg<<std::endl;
-  std::cout<<"File : "<<file<<std::endl;
-  std::cout<<"Line : "<<line<<std::endl;
-  std::cout<<std::endl;
+  std::cout << "Suite: " << suite <<std::endl;
+  std::cout << "Test : " << test  <<std::endl;
+  std::cout << "Fail : " << msg   <<std::endl;
+  std::cout << "File : " << file  <<std::endl;
+  std::cout << "Line : " << line  <<std::endl;
+  std::cout << std::endl;
 }
